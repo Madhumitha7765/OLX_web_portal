@@ -1,0 +1,10 @@
+
+
+cars-select a.advt_id,a.owner_id,b.model_name,b.manufacturer,b.year_of_purchase,b.kilometers_driven,b.fueltype,a.buyer_id from advertisement a inner join car b on a.advt_id=b.product_id;
+bikes-select a.advt_id,a.owner_id,b.model_name,b.manufacturer,b.year_of_purchase,b.kilometers_driven,a.buyer_id from advertisement a inner join bikes b on a.advt_id=b.product_id;
+camera-select a.advt_id,a.owner_id,b.model_name,b.manufacturer,b.year_of_purchase,b.battery_status,a.buyer_id from advertisement a inner join camera b on a.advt_id=b.product_id;
+book-select a.advt_id,a.owner_id,b.name_of_book,b.condition_book,a.buyer_id from advertisement a inner join book b on a.advt_id=b.product_id;
+lap-select a.advt_id,a.owner_id,b.manufacturer,b.model_name,b.year_of_purchase,b.battery_status,a.buyer_id from advertisement a inner join laptop b on a.advt_id=b.product_id;
+mobile-select a.advt_id,a.owner_id,b.manufacturer,b.model_name,b.year_of_purchase,a.buyer_id from advertisement a inner join mobile b on a.advt_id=b.product_id;
+speaker-select a.advt_id,a.owner_id,b.manufacturer,b.year_of_purchase,a.buyer_id from advertisement a inner join speakers b on a.advt_id=b.product_id;
+television-select a.advt_id,a.owner_id,b.manufacturer,b.model_name,b.year_of_purchase,b.inches,a.buyer_id from advertisement a inner join television b on a.advt_id=b.product_id;
